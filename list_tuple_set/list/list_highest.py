@@ -3,7 +3,7 @@
 def create_list():
     while True:
         try:
-            list = []
+            my_list = []
             total_numbers = int(input("How many numbers do you want to enter? "))
             if total_numbers < 0:
                 print("Please enter a positive integer for the number of entries.")
@@ -16,24 +16,24 @@ def create_list():
                     while True:
                         try:
                             numm = float(input(f"Enter number {i+1}: "))
-                            list.append(numm)
+                            my_list.append(numm)
                             break
                         except ValueError:
                             print("Invalid input. Please enter a numeric value.")
-                return list
+                return my_list
         except (ValueError, IndexError):
             print("Invalid input. Please enter numeric values.")
 
-def find_highest_number(list):
-    highest = list[0]
-    for num in list:
+def find_highest_number(my_list):
+    highest = my_list[0]
+    for num in my_list:
         if num > highest:
             highest = num
     return highest
 
 def main():
-    list = create_list()
-    highest_number = find_highest_number(list)
+    my_list = create_list()
+    highest_number = find_highest_number(my_list)
     print("The highest number in the list is:", highest_number)
 
 if __name__ == "__main__":

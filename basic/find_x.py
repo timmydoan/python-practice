@@ -31,4 +31,5 @@ def main():
     x = find_x(a, b)
     print(f"x = {x}")
 
-main()
+if __name__ == "__main__":
+    main()

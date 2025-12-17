@@ -25,5 +25,6 @@ def main():
     reversed_number = reverse_number(original_number)
     print("Reversed number:", reversed_number)
 
-main()
+if __name__ == "__main__":
+    main()
     

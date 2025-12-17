@@ -5,4 +5,5 @@ def naming():
     input_name = input("Enter your name: ")
     print(f"Hello, {input_name}!")
 
-naming()
+if __name__ == "__main__":
+    naming()

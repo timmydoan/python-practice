@@ -34,4 +34,5 @@ def main():
     even_numbers = filter_even_numbers(my_list)
     print("The new list with only even numbers is:", even_numbers)
 
-main()
+if __name__ == "__main__":
+    main()

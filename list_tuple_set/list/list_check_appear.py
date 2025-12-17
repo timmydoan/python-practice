@@ -42,4 +42,5 @@ def main():
     else:
         print(f"The element {element} appears {count} time(s) in the list.")
 
-main()
+if __name__ == "__main__":
+    main()

@@ -17,4 +17,5 @@ def create_list_and_find():
     
     return print(f"The list of numbers you entered is: {numbers}"),  print(f"The highest number in the list is: {max(numbers)}")             
 
-create_list_and_find()
+if __name__ == "__main__":
+    create_list_and_find()

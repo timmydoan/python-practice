@@ -23,6 +23,7 @@ def main():
     result = find_factorial(num)
     print (result)
 
-main()
+if __name__ == "__main__":
+    main()
     
        

@@ -15,4 +15,5 @@ def main():
     digits_count = count_digits(num)
     print(f"The number {num} has {digits_count} digits (excluding decimal point and sign).")
 
-main()
+if __name__ == "__main__":
+    main()

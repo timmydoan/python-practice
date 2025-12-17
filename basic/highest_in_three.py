@@ -31,6 +31,6 @@ def main():
     else:
         print("Thank you for using the highest number finder. Goodbye!")
     
-
-main()
+if __name__ == "__main__":
+    main()
 

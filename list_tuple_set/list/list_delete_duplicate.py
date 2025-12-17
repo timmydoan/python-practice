@@ -49,6 +49,5 @@ def main():
     unique_list = remove_duplicates(my_list)
     print("List after removing duplicates:", unique_list)
 
-
-
-main()
+if __name__ == "__main__":
+    main()

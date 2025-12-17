@@ -38,5 +38,5 @@ def main():
     combined_list = combine_list([])
     print("The combined list is:", combined_list)
 
-main()
-
+if __name__ == "__main__":
+    main()

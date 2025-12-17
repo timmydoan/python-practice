@@ -18,5 +18,6 @@ def main():
     num = get_number()
     multiply_numbers(num)
 
-main()
+if __name__ == "__main__":
+    main()
     
