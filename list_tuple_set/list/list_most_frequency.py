@@ -35,7 +35,7 @@ def find_most_frequent_element(my_list):
         return None, 0
     
     tie_count = 0
-    for count in frequency.values():
+    for count in frequency.values(): 
         if count == frequency[most_frequent]:
             tie_count += 1
             if tie_count > 1:
